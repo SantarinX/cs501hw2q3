@@ -76,7 +76,7 @@ fun SongInfo(title: String, artist: String) {
         Text(text = title, style = MaterialTheme.typography.headlineMedium)
 
         Spacer(Modifier.height(8.dp))
-        
+
         Text(text = artist, style = MaterialTheme.typography.bodyLarge)
     }
 }
